@@ -1,0 +1,21 @@
+p {
+  font-size: 80px;
+  margin: 0;
+}
+
+.box {
+  width: max-content;
+  transition: all 0.5s;
+  height: 200px;
+  user-select: none;
+}
+
+.reveal {
+  opacity: 0;
+  transition: all 0.5s;
+  bottom: 0%;
+}
+
+.revealed .reveal {
+  opacity: 1;
+}
